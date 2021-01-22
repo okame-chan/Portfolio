@@ -482,46 +482,7 @@ button:focus {
     margin-top: 15px;
 }
 
-/*===========================
-        7.CLIENT
-=============================*/
 
-.testi_boxes {
-    max-width: 750px;
-}
-
-.client_review {
-    font-size: 18px;
-}
-
-.client_name {
-    font-size: 16px;
-}
-
-.testi_boxes .tam_testi_icon {
-    font-size: 50px;
-}
-
-.owl-theme .owl-controls .owl-page {
-    margin: 20px 0px;
-}
-
-.owl-theme .owl-controls .owl-page span {
-    display: block;
-    width: 12px;
-    height: 6px;
-    margin: 5px 4px;
-    filter: Alpha(Opacity=50);
-    opacity: 0.5;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    transition: all 0.5s;
-}
-
-.owl-theme .owl-controls .owl-page.active span {
-    width: 20px;
-}
 
 
 /*===========================
@@ -620,6 +581,32 @@ button:focus {
 /*=========================
         9.CONTACT
 ===========================*/
+
+/*スマートフォン*/
+.iframe-wrap {
+    position: relative;
+    width: 85%;
+    height: 0;
+    padding-top: 300%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (min-width:769px) {
+  .iframe-wrap {
+    padding-top: 150%;
+  }
+  }
+  /*PC*/
+  @media (min-width:980px) {
+  .iframe-wrap {
+    padding-top: 120%;
+  }
+  }
+
+
+.onegai{
+    color:  #f13a68;
+}
 
 .form-kerri .form-control {
     box-shadow: none !important;
